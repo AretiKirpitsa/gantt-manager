@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <package id="1" language="java" name="app" project="2022-23_AM1_AM2_AM3_GanttManager_Public" 
+    file="/2022-23_AM1_AM2_AM3_GanttManager_Public/src/main/java/app" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="523" y="267"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="app.gui" project="2022-23_AM1_AM2_AM3_GanttManager_Public" 
+    file="/2022-23_AM1_AM2_AM3_GanttManager_Public/src/main/java/app/gui" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="182" y="58"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="app.gui.jtableview" project="2022-23_AM1_AM2_AM3_GanttManager_Public" 
+    file="/2022-23_AM1_AM2_AM3_GanttManager_Public/src/main/java/app/gui/jtableview" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="767" y="100"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="app.naive" project="2022-23_AM1_AM2_AM3_GanttManager_Public" 
+    file="/2022-23_AM1_AM2_AM3_GanttManager_Public/src/main/java/app/naive" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="176" y="259"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="dom2app" project="2022-23_AM1_AM2_AM3_GanttManager_Public" 
+    file="/2022-23_AM1_AM2_AM3_GanttManager_Public/src/main/java/dom2app" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="521" y="460"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="backend" project="2022-23_AM1_AM2_AM3_GanttManager_Public" 
+    file="/2022-23_AM1_AM2_AM3_GanttManager_Public/src/main/java/backend" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="921" y="389"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="reporter" project="2022-23_AM1_AM2_AM3_GanttManager_Public" 
+    file="/2022-23_AM1_AM2_AM3_GanttManager_Public/src/main/java/reporter" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="55" width="122" x="110" y="587"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="8" language="java" name="parser" project="2022-23_AM1_AM2_AM3_GanttManager_Public" 
+    file="/2022-23_AM1_AM2_AM3_GanttManager_Public/src/main/java/parser" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="524" y="612"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="9" language="java" name="dom" project="2022-23_AM1_AM2_AM3_GanttManager_Public" 
+    file="/2022-23_AM1_AM2_AM3_GanttManager_Public/src/main/java/dom" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="55" width="122" x="819" y="595"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="22">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
