@@ -56,18 +56,6 @@ The design is supported by **UML Class Diagrams and Package Diagrams** demonstra
 ### Requirements
 - Java JDK 11 or higher
 
-### Steps
-1. Compile the project:
-```bash
-javac -d bin src/**/*.java
-```
-
-2. Run the application:
-```bash
-java -cp bin app.gui.AppStarter
-```
-
-*(Adjust main class if needed depending on your IDE setup.)*
 
 ---
 
